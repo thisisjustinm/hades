@@ -167,7 +167,7 @@ def func_d(a):
 	return hex(abs(g+b+c+(d>>21)))[2:35]
 
 
-def mix(a):
+def ares(a):
 	s=0
 	for i in [i for i in a]:
 		s=s+ord(i)+len(zeus(a))+len(func_d(i))
@@ -179,4 +179,4 @@ def mix(a):
 def hades(inpt):
 	addn=func_d(func_b(inpt))
 	revr=func_a(zeus(func_c(inpt)))
-	return mix(rev(mix(rev(mix(inpt+func_a(revr)+addn+revr)))))[1:33]
+	return ares(rev(ares(rev(ares(inpt+func_a(revr)+addn+revr)))))[1:33]
