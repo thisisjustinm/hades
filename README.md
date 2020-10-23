@@ -1,3 +1,5 @@
+[![Azym URL](https://img.shields.io/badge/azym-2ce51-0c0?color=black&labelColor=0c0)](http://azym.ml/?q=2ce51)
+
 ![Hades](/hades.png)
 
 Hades is a complex hashing algorithm written in Python.
